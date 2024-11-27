@@ -14,7 +14,6 @@ const UserProfile = ({ username, age, location }) => {
 // export default UserProfile;
 // App.js
 
-
 const Appp = () => {
   const userinfo = {
     username: "johndoe",
