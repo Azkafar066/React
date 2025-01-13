@@ -1,15 +1,13 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
+import Card from "./React.UseState/Card";
 
-import Counter from "./React.UseState/UseStateTipeDataNumber";
-import Arrays from "./React.UseState/File 3";
-import ArrayKosong from "./React.UseState/file 2";
-import GoodArray from "./React.UseState/File1";
-import Example from "./React.UseState/Praktek1";
-createRoot(document.getElementById("root")).render(
+const root = createRoot(document.getElementById("root"));
+root.render(
   <StrictMode>
-    <Example/>
+    <Card />
   </StrictMode>
 );
 
+  
