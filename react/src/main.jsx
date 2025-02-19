@@ -10,7 +10,7 @@ import CobaAxios from "./M12/M13/Axios";
 const root = createRoot(document.getElementById("root"));
 root.render(
   <StrictMode>
-    <CobaAxios/>
+    <cobajsx/>
   </StrictMode>
 );
 
